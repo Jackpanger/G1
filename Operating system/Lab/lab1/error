@@ -1,0 +1,9 @@
+"Error: Absolute address exceeds machine size; zero used"
+"Error: Relative address exceeds module size; zero used"
+"Error: External address exceeds length of uselist; treated as immediate"
+"Error: %s is not defined; zero used" (insert the symbol name for %s) "Error: This variable is multiple times defined; first value used"
+"Error: Illegal immediate value; treated as 9999"
+"Error: Illegal opcode; treated as 9999"
+
+"Warning: Module %d: %s too big %d (max=%d) assume zero relative\n" “Warning: Module %d: %s redefined and ignored\n"
+"Warning: Module %d: %s appeared in the uselist but was not actually used\n" "Warning: Module %d: %s was defined but never used\n”

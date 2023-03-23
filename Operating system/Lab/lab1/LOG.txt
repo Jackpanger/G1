@@ -1,0 +1,50 @@
+################### input-12##################
+###    Warning Diff:    .....
+###    Code/Error Diff: .....
+1c1
+< Parse Error line 3 offset 8: ADDR_EXPECTED
+---
+> Parse Error line 3 offset 0: ADDR_EXPECTED
+
+################### input-13##################
+###    Warning Diff:    .....
+###    Code/Error Diff: .....
+1c1
+< Parse Error line 1 offset 2: SYM_EXPECTED
+---
+> Parse Error line 1 offset 0: SYM_EXPECTED
+
+################### input-18##################
+###    Warning Diff:    .....
+###    Code/Error Diff: .....
+1c1
+< Parse Error line 3 offset 1: SYM_EXPECTED
+---
+> Parse Error line 3 offset 0: SYM_EXPECTED
+
+################### input-19##################
+###    Warning Diff:    .....
+###    Code/Error Diff: .....
+4,6c4,6
+< 001: 9999 Error: Illegal immediate value; treated as 9999
+< 002: 9999 Error: Illegal immediate value; treated as 9999
+< 003: 0000
+---
+> 001: 9999 Error: Illegal opcode; treated as 9999
+> 002: 9999 Error: Illegal opcode; treated as 9999
+> 003: 0 
+
+################### input-20##################
+###    Warning Diff:    .....
+###    Code/Error Diff: .....
+4,7c4,7
+< 000: 0002
+< 001: 0002
+< 002: 0008
+< 003: 0000
+---
+> 000: 2 
+> 001: 2 
+> 002: 8 
+> 003: 0 
+

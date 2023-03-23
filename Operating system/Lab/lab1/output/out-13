@@ -1,0 +1,4 @@
+Parse Error line 1 offset 0: SYM_EXPECTED
+Symbol Table
+
+libc++abi: terminating with uncaught exception of type PARSE_ERROR

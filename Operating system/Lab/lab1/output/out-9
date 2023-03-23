@@ -1,0 +1,10 @@
+Symbol Table
+X31=1 
+
+Warning: Module 2: X31 appeared in the uselist but was not actually used
+
+Memory Map
+000: 2001 
+001: 3001 
+002: 4001 
+

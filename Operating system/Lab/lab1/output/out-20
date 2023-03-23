@@ -1,0 +1,12 @@
+Symbol Table
+bourbon=1 
+
+Warning: Module 0: whiskey appeared in the uselist but was not actually used
+
+Memory Map
+000: 2 
+001: 2 
+002: 8 
+003: 0 
+
+Warning: Module 1: bourbon was defined but never used
