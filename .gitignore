@@ -1,7 +1,8 @@
+.idea
+.vscode
 /Insurance
 *.xml
 *.zip
 *.iml
 *.DS_Store
-*.vscode
 *.idea
