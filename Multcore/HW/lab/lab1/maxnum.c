@@ -110,9 +110,7 @@ int maxvalue(const int local_histogram[]) {
     int maxIndex = 0;
     for (int i = 0; i < 4; ++i) {
         if (local_histogram[i] > local_histogram[maxIndex]) maxIndex = i;
-//        printf("%d %d %d\n",i,local_histogram[i],maxIndex);
     }
-//    printf("maxIndex %d\n",maxIndex);
     return maxIndex;
 }
 
