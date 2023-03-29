@@ -94,7 +94,7 @@ void parallel(const char buff[], int N, int num) {
         for (int i = 0; i < num; i++) {
             local_histogram[tid][buff[i] - 97] ++;
         }
-
+#pragma omp critical
         for (int j = 0; j < 4; j++) {
             for (int t = 0; t < 4; t++) {
                 histogram[j] += local_histogram[t][j];
