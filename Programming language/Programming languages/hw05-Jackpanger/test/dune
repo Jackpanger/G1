@@ -1,0 +1,1 @@
+(test (name hw05_spec) (libraries hw05 ounit2 util))
