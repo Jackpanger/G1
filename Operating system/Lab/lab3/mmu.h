@@ -11,7 +11,7 @@ namespace mmu
     using namespace std;
     const unsigned int MAX_FRAMES = 128;
     const unsigned int MAX_VPAGES = 64;
-    vector<process_t> process_set;
+
     bool OPTION_O = true;
     bool OPTION_P = true;
     bool OPTION_F = true;
@@ -54,6 +54,8 @@ namespace mmu
         pte_t page_table[MAX_VPAGES];
         vector<VMA_t> VMAs;
     } process_t;
+
+    vector<process_t> process_set;
 
     vector<int> get_randfile(string path)
     {
